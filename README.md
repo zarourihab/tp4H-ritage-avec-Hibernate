@@ -1,3 +1,4 @@
+
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-24 001051" src="https://github.com/user-attachments/assets/c9b3c9e5-9071-4f0b-b87a-0a17d6d2f19d" />
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-24 001100 - Copie" src="https://github.com/user-attachments/assets/a078fa86-ae9b-4009-ad9f-105b7ebb3abf" />
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-24 001100" src="https://github.com/user-attachments/assets/21c45ffd-d58e-40bd-9653-5c7d21655852" />
@@ -15,3 +16,5 @@
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-24 001313" src="https://github.com/user-attachments/assets/d748011a-1c65-4481-a2cd-7a8d18adf6e4" />
 
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-24 001154 - Copie" src="https://github.com/user-attachments/assets/6e392903-f905-480e-98ea-643279d4c983" />
+diagramme de classe
+<img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-24 213918" src="https://github.com/user-attachments/assets/037de003-afd7-40e7-a6b7-26f92f146460" />
