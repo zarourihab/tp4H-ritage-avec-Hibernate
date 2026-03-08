@@ -1,4 +1,102 @@
+TP 4 : Héritage avec Hibernate - Stratégies de Mapping
+1. Objectif du TP
 
+L’objectif de ce TP est d’étudier les différentes stratégies d’héritage en JPA avec Hibernate et de comprendre comment les classes Java héritées sont représentées dans la base de données.
+
+Les stratégies étudiées sont :
+
+SINGLE_TABLE
+
+JOINED
+
+TABLE_PER_CLASS
+
+Le projet utilise Hibernate comme implémentation JPA et H2 Database comme base de données.
+
+2. Technologies utilisées
+
+Dans ce TP nous avons utilisé :
+
+Java 8
+
+Maven
+
+JPA (Java Persistence API)
+
+Hibernate
+
+H2 Database
+
+Hibernate Validator
+
+SLF4J
+
+3. Configuration du projet
+
+Le projet est configuré avec Maven à travers le fichier pom.xml contenant les dépendances :
+
+JPA API
+
+Hibernate Core
+
+Hibernate Validator
+
+H2 Database
+
+SLF4J
+
+JUnit
+
+Le fichier persistence.xml permet de configurer :
+
+la connexion à la base H2
+
+le dialecte Hibernate
+
+la création automatique des tables
+
+l’affichage des requêtes SQL.
+
+4. Stratégies d’héritage implémentées
+4.1 Stratégie SINGLE_TABLE
+
+Dans cette stratégie, toutes les classes héritées sont stockées dans une seule table.
+
+Classe de base :
+
+Vehicule
+
+Classes dérivées :
+
+Voiture
+
+Moto
+4.2 Stratégie JOINED
+
+Dans cette stratégie :
+
+la classe parent possède une table
+
+chaque classe enfant possède sa propre table
+
+Classe de base :
+
+Employe
+
+Classes dérivées :
+
+Developpeur
+
+Manager
+Les tests montrent que Hibernate gère correctement l’héritage en base de données.
+
+Chaque stratégie produit une structure différente des tables :
+
+SINGLE_TABLE → une seule table
+
+JOINED → plusieurs tables liées
+
+TABLE_PER_CLASS → une table par classe
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-24 001051" src="https://github.com/user-attachments/assets/c9b3c9e5-9071-4f0b-b87a-0a17d6d2f19d" />
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-24 001100 - Copie" src="https://github.com/user-attachments/assets/a078fa86-ae9b-4009-ad9f-105b7ebb3abf" />
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-24 001100" src="https://github.com/user-attachments/assets/21c45ffd-d58e-40bd-9653-5c7d21655852" />
